@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+     background-color: black;  
+    margin-top: 5px;
+
+}
+
+.container
+{
+    max-width: 80vw;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.topleft
+{
+    width: 50%;
+    height: 50vh;
+    margin-top: 180px;
+}
+.topright
+{
+    width: 50%;
+   
+}
+.button
+{
+    margin-left:120px ;
+    margin-top: 30px;
+    padding: 15px;
+   border-style:inset;
+   border-width: 5px;
+   border-color: rgb(114, 144, 236);
+   color: rgb(114, 144, 236) ;
+   font-size: large;
+  
+}
+.topright img
+{
+   height: 510px;
+   width: 130%;
+}
+.dumbell img
+{
+   height: 50px;
+   width: 60px;
+ position: absolute;
+ left: 250px;
+ top: 5px;
+}
+
+.box
+{
+    border-style: groove;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 20%;
+    top: 120%;
+    padding: 5%;
+}
+
+.expandable {
+    
+    overflow: hidden;
+    color: #000;   
+    line-height: 50px;
+  
+    transition: all .5s ease-in-out;
+    height: 0;
+   }
+   
+   .expandable:target {
+    height: 250px;
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  
+  .review {
+    animation: slide-in 1000ms;
+   margin-top: 20px;
+   margin-bottom: 100px;
+   
+   
+  }
+  .Review
+  {
+    position: absolute;
+    top: 1200px;
+    
+ 
+  }
+  .man img
+  {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    
+    height: 700px;
+    width:800px ;
+    
+   
+
+  }
+  .features
+  {
+    display: flex;
+
+    
+  }
+  .feature
+  {
+border-style: solid;
+border-color: aliceblue;
+border-radius: 20px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 90px;
+  }
+  
+ 
+  .package1 img
+  {
+    position: absolute;
+    left: 600px;
+    top: 2450px;
+    height: 500px;
+    width:500px ;
+  }
+  .package2 img
+  {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    left: 10px;
+    
+  }
+  .sm 
+  {
+    display: inline;
+  }
+  .sm img
+  {
+height: 90px;
+margin-top: 30px;
+  }
+  
+ 
